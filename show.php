@@ -10,24 +10,26 @@ include __DIR__ . '/partials/templates/head.php';
     <div class="col-sm-12">
       <header class="my-4">
         <h1 class="text-center text-primary">Details Rooms</h1>
-
-        <div class="card">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              ID: <?php echo $room['id'];?>
-            </li>
-            <li class="list-group-item">
-              ROOM NUMBER: <?php echo $room['room_number'];?>
-            </li>
-            <li class="list-group-item">
-              BEDS: <?php echo $room['beds'];?>
-            </li>
-            <li class="list-group-item">
-              FLOOR: <?php echo $room['floor'];?>
-            </li>
-          </ul>
-        </div>
       </header>
+
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            ID: <?php echo $room['id'];?>
+          </li>
+          <li class="list-group-item">
+            ROOM NUMBER: <?php echo $room['room_number'];?>
+          </li>
+          <li class="list-group-item">
+            BEDS: <?php echo $room['beds'];?>
+          </li>
+          <li class="list-group-item">
+            FLOOR: <?php echo $room['floor'];?>
+          </li>
+        </ul>
+      </div>
+
+      <a href="./"> &lt; Torna indietro</a>
 
     </div>
   </div>
