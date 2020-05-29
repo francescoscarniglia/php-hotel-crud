@@ -23,7 +23,7 @@
                 <td><?php echo $room['room_number'] ?></td>
                 <td><?php echo $room['floor'] ?></td>
                 <td>
-                  <a class="text-success" href="#">
+                  <a class="text-success" href="./show.php?id=<?php echo $room['id'] ?>">
                     View
                   </a>
                 </td>
