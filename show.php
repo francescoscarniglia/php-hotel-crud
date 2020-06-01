@@ -29,8 +29,6 @@ include __DIR__ . '/partials/templates/head.php';
         </ul>
       </div>
 
-      <a href="./"> &lt; Torna indietro</a>
-
     </div>
   </div>
 </main>
