@@ -29,7 +29,7 @@
                   </a>
                 </td>
                 <td>
-                  <a class="text-primary" href="#">
+                  <a class="text-primary" href="./edit.php?id=<?php echo $room['id']; ?>">
                     Update
                   </a>
                 </td>

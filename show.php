@@ -8,7 +8,7 @@ include __DIR__ . '/partials/templates/head.php';
   <div class="row">
     <div class="col-sm-12">
       <header class="my-4">
-        <h1 class="text-center text-primary">Details Rooms</h1>
+        <h1 class="text-center text-primary">Details Room</h1>
       </header>
 
       <div class="card">
