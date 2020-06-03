@@ -5,7 +5,7 @@ include __DIR__. '/../database.php';
 $id_room = 1;
 
 // query sel room
-$sql = "SELECT * FROM `stanze` WHERE `id` = $id_room";
+$sql = "SELECT * FROM `stanze` WHERE `id` = " . $id_room;
 $result = $conn->query($sql);
 
 if($conn && $result->num_rows > 0) {

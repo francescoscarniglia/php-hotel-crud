@@ -4,7 +4,6 @@ include __DIR__ . '/partials/show/server.php';
 include __DIR__ . '/partials/templates/head.php';
 ?>
 
-
 <main class="container">
   <div class="row">
     <div class="col-sm-12">
@@ -32,10 +31,3 @@ include __DIR__ . '/partials/templates/head.php';
     </div>
   </div>
 </main>
-
-
-
-<?php
-include __DIR__ . '/partials/templates/footer.php';
-
- ?>
