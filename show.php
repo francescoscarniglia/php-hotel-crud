@@ -6,7 +6,7 @@ include __DIR__ . '/partials/templates/head.php';
 
 <main class="container">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-8 offset-sm-2">
       <header class="my-4">
         <h1 class="text-center text-primary">Details Room</h1>
       </header>
