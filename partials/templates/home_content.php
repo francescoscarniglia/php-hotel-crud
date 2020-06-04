@@ -23,17 +23,17 @@
                 <td><?php echo $room['id'] ?></td>
                 <td><?php echo $room['room_number'] ?></td>
                 <td><?php echo $room['floor'] ?></td>
-                <td>
+                <td class="text-right">
                   <a class="text-success" href="./show.php?id=<?php echo $room['id']; ?>">
                     View
                   </a>
                 </td>
-                <td>
+                <td class="text-right">
                   <a class="text-primary" href="./edit.php?id=<?php echo $room['id']; ?>">
                     Update
                   </a>
                 </td>
-                <td>
+                <td class="text-right">
                   <form action="./partials/delete/server.php" method="POST">
                     <input type="hidden" name="id" value="<?php echo $room['id']; ?>">
                     <input type="submit" class="btn btn-danger" value="Delete">
