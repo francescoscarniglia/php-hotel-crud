@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/../env.php';
+include_once __DIR__ . '/../env.php';
 
 //connect
 $conn = new mysqli($server_name, $username, $password, $db_name);

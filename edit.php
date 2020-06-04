@@ -12,18 +12,18 @@ include __DIR__ . '/partials/templates/head.php';
       <header class="my-4">
         <h1 class="text-center text-primary">Edit Room</h1>
       </header>
-      <form action="./partials/update/server-update.php" method="post">
+      <form action="./partials/update/server-update.php" method="POST">
           <div class="form-group">
             <label for="room_number"> Room Number</label>
             <input class="form-control" type="number" name="room_number" id="room_number" value="<?php echo $room["room_number"]; ?>">
           </div>
           <div class="form-group">
-            <label for="beds_number"> Beds Number</label>
-            <input class="form-control" type="number" name="beds_number" id="beds_number" value="<?php echo $room["floor"]; ?>">
+            <label for="beds"> Beds Number</label>
+            <input class="form-control" type="number" name="beds" id="beds" value="<?php echo $room["beds"]; ?>">
           </div>
           <div class="form-group">
             <label for="floor"> Floor</label>
-            <input class="form-control" type="number" name="floor" id="floor" value="<?php echo $room["beds"]; ?>">
+            <input class="form-control" type="number" name="floor" id="floor" value="<?php echo $room["floor"]; ?>">
           </div>
           <div class="form-group text-right">
             <input type="hidden" name="id" value="">
