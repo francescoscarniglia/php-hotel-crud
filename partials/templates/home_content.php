@@ -9,7 +9,7 @@
         <thead>
           <tr>
             <th>ID</th>
-            <th>N° room</th>
+            <th>N° Room</th>
             <th>Floor</th>
             <th></th>
             <th></th>
